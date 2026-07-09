@@ -1,0 +1,25 @@
+# Entornos virtuales
+venv/
+backend/venv/
+
+# Variables de entorno
+.env
+backend/.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Auditoria
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
