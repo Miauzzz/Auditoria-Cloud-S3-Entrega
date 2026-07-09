@@ -42,8 +42,11 @@ Para verificar el entorno de auditoría, siga los pasos a continuación:
 1. Navegue a la carpeta /backend.
 2. Instale las dependencias necesarias: 
    pip install -r requirements.txt
-   (Correción : Se agregó dependencia "pymupdf" faltante para arrancar el servidor en el requirements.txt original).
-3. Inicie el servidor: 
+
+   *(Correción : Se agregó dependencia "pymupdf" faltante para arrancar el servidor en el requirements.txt original).*
+
+   
+4. Inicie el servidor: 
    uvicorn app.main:app --port 8001
 
 ### 2. Ejecución de Pruebas (Ejemplos)
